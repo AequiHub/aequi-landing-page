@@ -134,12 +134,24 @@
             </div>
         </div>
 
+
         <div class="cta-box">
             <h2>Ready for the new era of transparency?</h2>
-            <p style="margin-bottom: 1.5rem; opacity: 0.8;">We are currently in private development. To discuss a pilot or get early access, contact us at:</p>
-            <a href="mailto:info@aequihub.eu" class="email-link">info@aequihub.eu</a>
+            <p style="margin-bottom: 1.5rem; opacity: 0.8;">Join our private beta or inquire about a pilot program.</p>
+            
+            <form name="contact" method="POST" data-netlify="true" style="display: flex; flex-direction: column; gap: 1rem; max-width: 400px; margin: 0 auto; text-align: left;">
+                <div style="display: flex; flex-direction: column;">
+                    <label style="font-size: 0.8rem; margin-bottom: 0.3rem; opacity: 0.8;">Work Email</label>
+                    <input type="email" name="email" required style="padding: 0.8rem; border-radius: 0.5rem; border: none; outline: none;">
+                </div>
+                <div style="display: flex; flex-direction: column;">
+                    <label style="font-size: 0.8rem; margin-bottom: 0.3rem; opacity: 0.8;">Message (Optional)</label>
+                    <textarea name="message" rows="3" style="padding: 0.8rem; border-radius: 0.5rem; border: none; outline: none; font-family: inherit;"></textarea>
+                </div>
+                <button type="submit" style="background: var(--accent); color: white; border: none; padding: 1rem; border-radius: 0.5rem; font-weight: 600; cursor: pointer;">Send Inquiry</button>
+            </form>
         </div>
-    </main>
+    
 
     <footer>
         &copy; 2025 Aequi Group. Built for a more equitable Europe.
